@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 这里是全局的页面背景和字体设置 */
+body {
+  background-color: #fafafa;   /* 整个App的浅灰背景，原来想用bg-neutral-50，现在直接用十六进制颜色 */
+  color: #111111;              /* 默认文字颜色是深灰而不是纯黑，看起来舒服一点 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Roboto, "Helvetica Neue", sans-serif;
+}
